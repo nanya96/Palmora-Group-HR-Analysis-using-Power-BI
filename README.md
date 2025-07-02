@@ -19,6 +19,7 @@ This project analyses the company's data (Palmora-Group-HR data) to uncover poss
 ### Process
 1.  Data Source
     - The primary source of the data used here is Palmora Group Emp-data.csv and Palmora Group Bonus Rules. xlxs.
+    - Data loading and inspection.
 2.  Data Cleaning:
     - Assigned a generic gender status to some employees that refuse to disclose their gender.
     - Removed some employees without a salary because they are no longer with the company.
@@ -27,3 +28,7 @@ This project analyses the company's data (Palmora-Group-HR data) to uncover poss
 3.  Analysis and Visualization:
     -	Gender distribution, ratings and salary structure in the company's data were analyzed.
     -	Created dashboards in Power BI.
+  
+### Tools
+- Power BI: Data cleaning, validation, dashboards and visualizations.
+
