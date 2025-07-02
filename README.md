@@ -2,7 +2,7 @@
 - [Project Overview](#project-overview)
 - [Data Source](#data-source)
 - [Tools Used](#tools-used)
-- [process](#process)
+- [Process](#process)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [link](#link)
 
