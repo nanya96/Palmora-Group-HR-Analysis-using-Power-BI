@@ -1,4 +1,12 @@
 # Palmora-Group-HR-Analysis Using Power BI
+- [Project Overview](#project-overview)
+- [Data Source](#data-source)
+- [Tools Used](#tools-used)
+- [process](#process)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [link](#link)
+
+
 ### Project Overview
 This project analyses the company's data (Palmora-Group-HR data) to uncover possible issues and patterns, providing actionable insights that the Palmoria management team would need to address for strategic planning. It focuses more on resolving issues like gender inequality within the organization and its region, and creating meaningful visualizations for the management team.
 
@@ -38,4 +46,5 @@ EDA involved the exploring of the Data to answer some questions about the Data s
    - Calculate the total amount to be paid to individual employees (salary inclusive of bonus).
    - Total amount to be paid out per region and company-wide.
 
-### Link to the Power BI report
+### Link
+  - Power BI report.
