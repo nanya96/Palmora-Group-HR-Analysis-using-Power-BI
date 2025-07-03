@@ -72,4 +72,6 @@ Thank you Incubator Hub DSA (Digital Skillup Africa) for this wounderful experie
 
 ### Link
   - [Palmoria Group emp-data.csv](https://github.com/nanya96/Palmoria-Group-HR-Analysis-using-Power-BI/blob/b51ab0a5ae40c89a5ea60552933902290d266103/Palmoria%20Group%20emp-data.csv)
+  - https://github.com/nanya96/Palmoria-Group-HR-Analysis-using-Power-BI/blob/fb1257debed19891e034aca4bb027a1f5b2812bb/Palmoria%20Group%20Bonus%20Rules.xlsx
+  - 
   - Power BI report.
