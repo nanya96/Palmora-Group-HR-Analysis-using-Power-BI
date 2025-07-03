@@ -9,7 +9,7 @@
 
 ### Project Overview
 This project analyses the company's data (Palmora-Group-HR data) to uncover possible issues and patterns, providing actionable insights that the Palmoria management team would need to address for strategic planning. It focuses more on resolving issues like gender inequality within the organization and its region, and creating meaningful visualizations for the management team.
-![Original](
+![Original](https://github.com/nanya96/Palmora-Group-HR-Analysis-using-Power-BI/blob/7c4fc5774985b3426117bd1f78d5bc6c36598f51/Original.png)
 
 ### Data Source
 The primary source of the data used here is Palmora Group Emp-data.csv and Palmora Group Bonus Rules. xlxs, which was gotten from Incubator Hub for the DSA Data Analysis Capstone Project.
