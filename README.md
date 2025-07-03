@@ -1,4 +1,4 @@
-# Palmora-Group-HR-Analysis Using Power BI
+# Palmoria-Group-HR-Analysis Using Power BI
 - [Project Overview](#project-overview)
 - [Data Source](#data-source)
 - [Tools Used](#tools-used)
@@ -8,15 +8,15 @@
 
 
 ### Project Overview
-This project analyses the company's data (Palmora-Group-HR data) to uncover possible issues and patterns, providing actionable insights that the Palmoria management team would need to address for strategic planning. It focuses more on resolving issues like gender inequality within the organization and its region, and creating meaningful visualizations for the management team.
+Palmoria Group is a manufacturing company based in Nigeria that has an embroided issues about gender inequality in its 3 regions where there businesses are located. Unfortunately, the media recently published in the news with the headline “Palmoria, the Manufacturing Patriarchy” this doesn’t look good to the owner of the business on their ambition to scale the business to other regions and even overseas. "Disclaimer": All datasets and reports do not represent any company, institution or country, but just a dummy datasets to demonstrate capabilities of Power BI
+This project analyses the company's data (Palmoria-Group-HR data) to uncover possible issues and patterns, providing actionable insights that the Palmoria management team would need to address for strategic planning. It focuses more on resolving issues like gender inequality within the organization and its region, and creating meaningful visualizations for the management team.
 ![Original](https://github.com/nanya96/Palmora-Group-HR-Analysis-using-Power-BI/blob/7c4fc5774985b3426117bd1f78d5bc6c36598f51/Original.png)
 
 ### Data Source
-The primary source of the data used here is Palmora Group Emp-data.csv and Palmora Group Bonus Rules. xlxs, which was gotten from Incubator Hub for the DSA Data Analysis Capstone Project.
+The primary source of the data used here is Palmoria Group Emp-data.csv and Palmoria Group Bonus Rules. xlxs, which was gotten from Incubator Hub for the DSA Data Analysis Capstone Project. The Palmoria Group manufacturing company gave out a data set of 3 different tables which are the bonus mapping, bonus rules and the Palmoria Group emp-data. The bonus mapping and bonus rules consists of 12 rows and 6 columns while the Palmoria Group emp_data consists of 6 columns and 1015 rows. The Palmoria Group emp_data table contains a range of the employees details related to the Palmoria company staffs, such as Employees name, Gender, department, salary, location and rating While the bonus rules and mappings which are the same which consists of 12 rows and 6 columns with the columns which consists of the department and the ratings i.e; very poor, poor, very good, good and average.
 
 
-### Tools Used
-- Microsoft Excel for data collection [Download Here](https://www.microsoft.com/) 
+### Tools Used 
 - Power BI (Data Manipulation and creating reports)
 
 
@@ -24,10 +24,12 @@ The primary source of the data used here is Palmora Group Emp-data.csv and Palmo
 1.  Data Collection
     - Data loading and inspection.
 2.  Data Cleaning:
-    - Assigned a generic gender status to some employees that refuse to disclose their gender.
+    - Assigned a generic gender status to some employees that refuse to disclose their gender (text cleaning).
     - Removed some employees without a salary because they are no longer with the company.
     - Removed some departments indicated as “NULL”.
-    - Cleaned the Palmora Group Bonus Rules by data manipulation. 
+    - Modelling, adjusted the model to the right relationship which is many to many cardinality.
+    - Cleaned the Palmoria Group Bonus Rules by data manipulation.
+    - Merged the tables; Palmoria Group emp_data table and Palmoria Group Bonus Rules by joining their unique identifier which is the “Department” and "Rating" column so that it gives          the Bonus Rate column.
 3.  Analysis and Visualization:
     -	Gender distribution, ratings and salary structure in the company's data were analyzed.
     -	Created dashboards in Power BI.
@@ -45,6 +47,14 @@ EDA involved the exploring of the Data to answer some questions about the Data s
    - Calculate the amount to be paid as a bonus to individual employees.
    - Calculate the total amount to be paid to individual employees (salary inclusive of bonus).
    - Total amount to be paid out per region and company-wide.
+
+CONCLUSIONS
+Gender Distribution • The gender disparity is most prominent in the Kaduna region (M-F ratio: 182–165), followed by Lagos (M-F ratio: 124–118) and then Abuja which has a negligible gender disparity (M-F ratio: 159–158). • Of the 12 departments, 7 have a higher Male headcount, with the Legal department leading the pack (M-F ratio: 49–34). • Overall, the gender disparity across the company is considered ‘MARGINAL’.
+
+Salary Structure • A gender pay gap exists across all regions of the company; at an average M-F salary ratio of $74.8k — $72.1k, male employees were noted to earn slightly more in all regions. • Male employees earned more in total terms across 7 (out of 12) departments. On an average salary basis, Male employees earned more in 9 (out of 12) departments across the company. • Given the marginal pay gap, there isn’t sufficient evidence based on available data to conclude if the disparity is reflective of patriarchy. • Performance Ratings & Bonuses • Female employees overall performed better in the period under review (reflected in higher overall bonuses which accrued to females).
+
+RECOMMENDATIONS
+• Given the minimality of the gender disparity & pay gap, PALMORIA should consider reviewing its employment and remuneration policy to close the inherent gender gaps and neutralize current negative opinions. • PALMORIA should consider reviewing the salary structure across the company to meet the minimum wage requiremen
 
 ### Link
   - Power BI report.
