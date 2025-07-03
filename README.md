@@ -71,5 +71,5 @@ EDA involved the exploring of the Data to answer some questions about the Data s
 Thank you Incubator Hub DSA (Digital Skillup Africa) for this wounderful experience and insights in learning Data Analysis.
 
 ### Link
-  - Palmoria Group emp-data.csv
+  - [Palmoria Group emp-data.csv](https://github.com/nanya96/Palmoria-Group-HR-Analysis-using-Power-BI/blob/b51ab0a5ae40c89a5ea60552933902290d266103/Palmoria%20Group%20emp-data.csv)
   - Power BI report.
