@@ -4,6 +4,9 @@
 - [Tools Used](#tools-used)
 - [Process](#process)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Conclusions](#conclusions)
+- [Recommendations](#recommendations)
+- [Acknowledgement](#acknowledgement)
 - [link](#link)
 
 
@@ -48,13 +51,24 @@ EDA involved the exploring of the Data to answer some questions about the Data s
    - Calculate the total amount to be paid to individual employees (salary inclusive of bonus).
    - Total amount to be paid out per region and company-wide.
 
-CONCLUSIONS
-Gender Distribution • The gender disparity is most prominent in the Kaduna region (M-F ratio: 182–165), followed by Lagos (M-F ratio: 124–118) and then Abuja which has a negligible gender disparity (M-F ratio: 159–158). • Of the 12 departments, 7 have a higher Male headcount, with the Legal department leading the pack (M-F ratio: 49–34). • Overall, the gender disparity across the company is considered ‘MARGINAL’.
+### Conclusions
+1. Gender Distribution
+   - The gender distribution is most prominent in the Kaduna (Male_182, Female_165, and Not disclosed_14) region followed by Lagos (Male_124, Female_118, and Not disclosed_8) and then         Abuja ((Male_159, Female_158, and Not disclosed_18). In the 12 departments, 7 have a higher Male head count, with the Legal department leading (Male_49 and Female_34). Hence, the         gender distribution across the company is considered ‘Minimal’.
 
-Salary Structure • A gender pay gap exists across all regions of the company; at an average M-F salary ratio of $74.8k — $72.1k, male employees were noted to earn slightly more in all regions. • Male employees earned more in total terms across 7 (out of 12) departments. On an average salary basis, Male employees earned more in 9 (out of 12) departments across the company. • Given the marginal pay gap, there isn’t sufficient evidence based on available data to conclude if the disparity is reflective of patriarchy. • Performance Ratings & Bonuses • Female employees overall performed better in the period under review (reflected in higher overall bonuses which accrued to females).
+2. Salary Structure
+   - A gender pay gap exists across all regions of the company; at an average Male and Female salary ratio of $74.8k — $72.1k, male employees were noted to earn slightly more in all           regions. Male employees earned more in total terms across 7 (out of 12) departments. On an average salary basis, Male employees earned more in 9 (out of 12) departments across the        company. Given the minimal pay gap, there isn’t sufficient evidence based on available data to conclude if the distribution is reflective of patriarchy. The management needs to get       detailed informations of their employees, in order to get accurate result.
 
-RECOMMENDATIONS
-• Given the minimality of the gender disparity & pay gap, PALMORIA should consider reviewing its employment and remuneration policy to close the inherent gender gaps and neutralize current negative opinions. • PALMORIA should consider reviewing the salary structure across the company to meet the minimum wage requiremen
+3. Performance Ratings & Bonuses
+   - Female employees in overall performed better in the analysis (reflected in higher overall bonuses).
+
+### Recommendations
+1. Given the minimality of the gender distribution & pay gap, PALMORIA should consider reviewing its employment, remuneration policy and gathering a well detailed information of their       employees, to close the inherent gender gaps and neutralize current negative opinions. 
+2. PALMORIA should consider reviewing the salary structure across the company to meet the minimum wage requirement.
+3. PALMORIA should consider conducting role-level analysis, are women clustered in junior roles while men dominate senior roles?
+4. PALMORIA should consider promoting more females in high-growth roles especially in Accounting and Marketing departments.
+
+### Acknowledgement 
+Thank you Incubator Hub DSA (Digital Skillup Africa) for this wounderful experience and insights in learning Data Analysis.
 
 ### Link
   - Power BI report.
